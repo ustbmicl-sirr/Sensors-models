@@ -1,6 +1,6 @@
 # MATD3 for Berth Allocation with Shore Power Coordination
 
-多智能体强化学习（MATD3）在连续泊位分配与岸电协同优化中的应用。
+多智能体强化学习（MATD3）在连续泊位分配与岸电协同优化中的应用。这个场景需要更泛化下，算法也要更新。 另外作为艺博本科毕业设计。
 
 ## 项目简介
 
