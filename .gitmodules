@@ -1,0 +1,3 @@
+[submodule "modelGrow"]
+	path = modelGrow
+	url = https://github.com/ustbmicl-sirr/modelGrow.git
