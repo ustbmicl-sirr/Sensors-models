@@ -19,3 +19,6 @@
 [submodule "importanceExitSplit"]
 	path = importanceExitSplit
 	url = https://github.com/ustbmicl-fedDis-modelAcc/importanceExitSplit.git
+[submodule "pruneSplit"]
+	path = pruneSplit
+	url = https://github.com/ustbmicl-fedDis-modelAcc/pruneSplit.git
