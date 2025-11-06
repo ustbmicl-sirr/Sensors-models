@@ -13,3 +13,6 @@
 [submodule "kdViT"]
 	path = kdViT
 	url = https://github.com/ustbmicl-sirr/kdViT.git
+[submodule "fjsp-EA-RL"]
+	path = fjsp-EA-RL
+	url = https://github.com/ustbmicl-sirr/fjsp-EA-RL.git
