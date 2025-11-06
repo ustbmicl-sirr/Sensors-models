@@ -6,11 +6,25 @@
 
 ### 当前子模块列表
 
-#### 1. modelGrow
+#### 1. MARL-tasks
+
+**路径**: `MARL-tasks/`
+**仓库**: https://github.com/ustbmicl-sirr/MARL-tasks.git
+**用途**: 多智能体强化学习在连续泊位分配与岸电协同优化中的应用
+**算法**: MATD3, SAC, PPO, TD3
+**框架**: RLlib 2.50.1
+
+#### 2. modelGrow
 
 **路径**: `modelGrow/`
 **仓库**: https://github.com/ustbmicl-sirr/modelGrow.git
 **用途**: 自动网络增长与结构重参数化 - 模型优化
+
+#### 3. modelST
+
+**路径**: `modelST/`
+**仓库**: https://github.com/ustbmicl-sirr/modelST.git
+**用途**: 模型结构重参数化技术
 
 ---
 
@@ -44,14 +58,14 @@ git submodule update
 # 更新所有子模块到远程最新版本
 git submodule update --remote --merge
 
-# 或者进入子模块目录单独更新
-cd modelGrow
+# 或者进入子模块目录单独更新（以MARL-tasks为例）
+cd MARL-tasks
 git pull origin main
 cd ..
 
 # 提交子模块更新
-git add modelGrow
-git commit -m "chore: 更新modelGrow子模块到最新版本"
+git add MARL-tasks
+git commit -m "chore: 更新MARL-tasks子模块到最新版本"
 git push
 ```
 
@@ -68,8 +82,8 @@ git submodule foreach git status
 ### 在子模块中进行开发
 
 ```bash
-# 进入子模块目录
-cd modelGrow
+# 进入子模块目录（以MARL-tasks为例）
+cd MARL-tasks
 
 # 创建新分支进行开发
 git checkout -b feature/my-feature
@@ -85,8 +99,8 @@ git push origin feature/my-feature
 cd ..
 
 # 更新主仓库的子模块引用
-git add modelGrow
-git commit -m "chore: 更新modelGrow子模块引用"
+git add MARL-tasks
+git commit -m "chore: 更新MARL-tasks子模块引用"
 git push
 ```
 
@@ -163,18 +177,21 @@ git commit -m "更新子模块引用"
 ```
 Sensors-models/
 ├── .gitmodules             # 子模块配置文件
-├── modelGrow/              # 子模块：模型优化
-│   ├── README.md
-│   └── ...（子模块内容）
-├── MARL-task/              # 主项目：多智能体强化学习
-│   ├── environment/
-│   ├── agents/
-│   ├── rewards/
-│   ├── rllib_env/
-│   ├── docs/
+├── .git/                   # Git仓库
+├── MARL-tasks/             # 子模块：多智能体强化学习
+│   ├── environment/        # 环境模块
+│   ├── agents/             # MATD3智能体
+│   ├── rewards/            # 奖励函数
+│   ├── rllib_env/          # RLlib环境适配
+│   ├── docs/               # 文档
+│   ├── manage.sh           # 管理脚本
+│   └── ...
+├── modelGrow/              # 子模块：网络增长与重参数化
+│   └── ...
+├── modelST/                # 子模块：结构重参数化
 │   └── ...
 ├── SUBMODULES.md           # 本文档
-└── README.md
+└── README.md               # 主文档
 ```
 
 ---
@@ -182,10 +199,12 @@ Sensors-models/
 ## 📖 相关链接
 
 - [Git Submodule官方文档](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-- [modelGrow仓库](https://github.com/ustbmicl-sirr/modelGrow)
 - [主仓库](https://github.com/ustbmicl-sirr/Sensors-models)
+- [MARL-tasks子模块](https://github.com/ustbmicl-sirr/MARL-tasks)
+- [modelGrow子模块](https://github.com/ustbmicl-sirr/modelGrow)
+- [modelST子模块](https://github.com/ustbmicl-sirr/modelST)
 
 ---
 
-**更新时间**: 2025-10-28
+**更新时间**: 2025-11-06
 **维护者**: Duan
