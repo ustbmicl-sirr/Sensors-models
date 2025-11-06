@@ -4,3 +4,6 @@
 [submodule "modelST"]
 	path = modelST
 	url = https://github.com/ustbmicl-sirr/modelST.git
+[submodule "MARL-tasks"]
+	path = MARL-tasks
+	url = https://github.com/ustbmicl-sirr/MARL-tasks.git
