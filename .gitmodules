@@ -22,3 +22,6 @@
 [submodule "pruneSplit"]
 	path = pruneSplit
 	url = https://github.com/ustbmicl-fedDis-modelAcc/pruneSplit.git
+[submodule "quanModel"]
+	path = quanModel
+	url = https://github.com/ustbmicl-fedDis-modelAcc/quanModel.git
