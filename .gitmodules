@@ -16,3 +16,6 @@
 [submodule "fjsp-EA-RL"]
 	path = fjsp-EA-RL
 	url = https://github.com/ustbmicl-sirr/fjsp-EA-RL.git
+[submodule "importanceExitSplit"]
+	path = importanceExitSplit
+	url = https://github.com/ustbmicl-fedDis-modelAcc/importanceExitSplit.git
