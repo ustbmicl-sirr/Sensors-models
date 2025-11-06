@@ -10,3 +10,6 @@
 [submodule "split-cinference"]
 	path = split-cinference
 	url = https://github.com/ustbmicl-sirr/split-cinference.git
+[submodule "kdViT"]
+	path = kdViT
+	url = https://github.com/ustbmicl-sirr/kdViT.git
