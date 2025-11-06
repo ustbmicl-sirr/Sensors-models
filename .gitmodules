@@ -7,3 +7,6 @@
 [submodule "MARL-tasks"]
 	path = MARL-tasks
 	url = https://github.com/ustbmicl-sirr/MARL-tasks.git
+[submodule "split-cinference"]
+	path = split-cinference
+	url = https://github.com/ustbmicl-sirr/split-cinference.git
