@@ -25,3 +25,6 @@
 [submodule "quanModel"]
 	path = quanModel
 	url = https://github.com/ustbmicl-fedDis-modelAcc/quanModel.git
+[submodule "transformerFlow"]
+	path = transformerFlow
+	url = https://github.com/ustbmicl-ros2epucksRL/transformerFlow.git
